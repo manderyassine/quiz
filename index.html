@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-red-700 flex justify-center items-center h-screen">
+    <div class="bg-white rounded-lg shadow-lg p-6 max-w-md w-full">
+        <h1 class="text-3xl font-bold mb-6 text-teal-700">tasti ma3loumetk el thakafya</h1>
+        <form id="quiz-form">
+<!-- Question 1 -->
+            <div class="mb-4">
+                <p class="text-lg mb-2">1-waktch tounes 5dhet este9lel?</p>
+                <label class="block">
+                    <input type="radio" name="q1" value="1956" class="mr-2"> 1956
+                </label>
+                <label class="block">
+                    <input type="radio" name="q1" value="1981" class="mr-2"> 1981
+                </label>
+                <label class="block">
+                    <input type="radio" name="q1" value="2022" class="mr-2"> 2022
+                </label>
+                <label class="block">
+                    <input type="radio" name="q1" value="1881" class="mr-2"> 1881
+                </label>
+            </div>
+<!-- Question 2 -->
+            <div class="mb-4">
+                <p class="text-lg mb-2">2-waktch jet el corona?</p>
+                <label class="block">
+                    <input type="radio" name="q2" value="2024" class="mr-2"> 2024
+                </label>
+                <label class="block">
+                    <input type="radio" name="q2" value="2022" class="mr-2"> 2022
+                </label>
+                <label class="block">
+                    <input type="radio" name="q2" value="2015" class="mr-2"> 2015
+                </label>
+                <label class="block">
+                    <input type="radio" name="q2" value="2019" class="mr-2"> 2019
+                </label>
+            </div>
+<!-- Question 3 -->
+            <div class="mb-4">
+                <p class="text-lg mb-2">3-waktch khraj ekher jondi francawi men tounes?</p>
+                <label class="block">
+                    <input type="radio" name="q3" value="15 oct 1990" class="mr-2"> 15 oct 1990
+                </label>
+                <label class="block">
+                    <input type="radio" name="q3" value="15 oct 1963" class="mr-2"> 15 oct 1963
+                </label>
+                <label class="block">
+                    <input type="radio" name="q3" value="16 janv 1800" class="mr-2"> 16 janv 1800
+                </label>
+                <label class="block">
+                    <input type="radio" name="q3" value="20 mar 2002" class="mr-2"> 20 mar 2002
+                </label>
+            </div>
+            <button type="button" onclick="evaluateQuiz()" class="bg-red-700  text-white px-4 py-2 rounded hover:bg-teal-100">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
